@@ -1,0 +1,101 @@
+@import 'variables';
+
+.about{
+	height:100%;
+	background-color: $lighter-brown;
+	h1{
+		text-align: absolute;
+		font-size: 250px;
+		opacity: 0.05;
+		z-index: -4;
+		margin-left: 50px;
+		font-family: $raleway-font;
+		float: left;
+		margin: -70px 0 0 -5px;
+	}
+	overflow: hidden;
+
+	h3{
+		font-size: 20px;
+	}
+}
+
+.about-statement{
+	margin-bottom: 50px;
+	margin-top: -100px;
+}
+
+.self-portrait img{
+	border-radius: 60%;
+	height: 300px;
+	text-align: right;
+}
+
+.bio{
+	text-align: left;
+	position: relative;
+	margin-top: 5vh;
+}
+
+.glyphicon-education{
+	font-size: 120px;
+}
+
+.skillset{
+	i{
+		font-size: 50px;
+		margin: 20px 20px;
+	}
+	overflow: auto;
+	margin: 15px 0px;
+}
+
+.skills-cat{
+	margin: 20px 0px;
+}
+
+.edu-item{
+	img{
+		width: 100px;
+	}
+	padding: 30px 20px;
+}
+
+.edu-item-dc{
+	img{
+		width: 200px;
+	}
+	padding: 30px 0px;
+}
+
+.edu-item, .edu-item-dc{
+	height: 100%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 960px){
+	.bio{
+		text-align: center;
+		text-align: center;
+		position: relative;
+		margin-top: 30px;
+		padding: 0px 50px;
+	}
+
+	.about h1{
+		font-size: 150px;
+		margin: -20px 0 0 0;
+	}
+
+	.about-statement{
+		margin-bottom: 50px;
+		margin-top: 0px;
+	}
+
+	.edu-item-dc{
+		img{
+			width: 150px;
+		}
+		padding: 30px 100px;
+	}
+}

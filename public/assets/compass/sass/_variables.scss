@@ -1,0 +1,30 @@
+/* Website Color Scheme Variables */
+$teal: #226078;
+$darker-brown: #91877C;
+$dark-brown: #A69E8F;
+$light-brown: #C9C5C3;
+$lighter-brown: #F2F2F2;
+
+$stalemate-font: 'Stalemate', cursive;
+$josefin-font: 'Josefin Sans', sans-serif;
+$raleway-font: 'Raleway', serif;
+
+@mixin bg-img($image) {
+	/* The image used */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url($image);
+
+	/* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+div, ul, li {
+	// border: solid black 1px;
+}

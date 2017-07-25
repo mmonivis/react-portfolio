@@ -1,0 +1,120 @@
+@import 'variables';
+
+.work{
+	height:100vh;
+	background-color: $light-brown;
+	h1{
+		text-align: absolute;
+		font-size: 250px;
+		opacity: 0.05;
+		z-index: -4;
+		margin-left: 50px;
+		font-family: $raleway-font;
+		float: right;
+		margin: -70px 0 0 -20px;
+	}
+	overflow: hidden;
+	width: 100%;
+}
+
+.cycslope-preview{
+	width: 100%;
+	height: 100%;
+	margin-top: 10%;
+
+	/* The image used */
+    background-image: url('/assets/images/cycslope-preview.png');
+
+	/* Full height */
+    height: 40%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	overflow: hidden;
+	.title, .description, .links{
+		visibility: hidden;
+	}
+}
+
+.cycslope-preview-highlight{
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('/assets/images/cycslope-preview.png');
+	overflow: auto;
+	.title, .description, .links{
+		visibility: visible;
+	}
+	.title{
+		top: 10%;
+		padding-top: 20px;
+		color: #fff;
+		font-size: 50px;
+		font-family: $raleway-font;
+		border-right: 3px solid $lighter-brown;
+	}
+
+	.links a{
+		top: 10%;
+		padding: 10px 20px;
+		border: 2px solid $lighter-brown;
+		color: $lighter-brown;
+		text-decoration: none;
+		font-size: 12px;
+		margin: 5px 20px 0 0;
+	}
+
+	.links a:hover{
+		text-decoration: none;
+		border: 2px solid $teal;
+		color: $lighter-brown;
+		background-color: $teal;
+	}
+
+	.description{
+		font-size: 14px;
+		padding: 50px 0 0 20px;
+		height: 70%;
+		color: #fff;
+
+		.tech-used{
+			margin: 20px 0 15px 0;
+		}
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	.cycslope-preview, .cycslope-preview-hightlight{
+		height: 100%;
+		overflow: auto;
+		border: none;
+	}
+}
+
+@media only screen and (max-width: 960px){
+	.work h1{
+		font-size: 150px;
+		margin: -20px 0 0 0;
+	}
+
+	.cycslope-preview-highlight{
+		.title{
+			padding: 0px;
+			border-right: none;
+			text-align: center;
+		}
+
+		 .description{
+			font-size: 14px;
+			margin-top: 80px;
+			padding: 20px 40px;
+			color: #fff;
+			text-align: center;
+
+			.tech-used{
+				margin: 10px 0px;
+			}
+		}
+	}
+}

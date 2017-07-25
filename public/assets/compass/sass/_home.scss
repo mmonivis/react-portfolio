@@ -1,0 +1,29 @@
+@import 'variables';
+
+.home-wrapper{
+	height:100vh;
+	background-color: #000;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/xfitgrips.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name-intro{
+	position: absolute;
+	z-index: 3;
+	top: 40vh;
+	color: white;
+}
+
+@media only screen and (max-width: 960px){
+	.name-intro{
+		text-align: center;
+	}
+}
+
+.home-bg{
+	background-color: #000;
+}
+

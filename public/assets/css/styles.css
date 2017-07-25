@@ -215,7 +215,7 @@
 @media only screen and (min-device-width: 320px) and (orientation: portrait) {
   /* line 30, ../compass/sass/_home.scss */
   .home-wrapper {
-    height: 100%;
+    background-size: 100%;
   }
 }
 /* line 35, ../compass/sass/_home.scss */

@@ -8,7 +8,7 @@ class Work extends Component {
 		return(
 			<div className="work section" id="work">
 				<h1>work</h1>
-					<div className="cycslope-preview">
+					<div className="cycslope-preview hideme">
 						<div className="title text-center col-xs-12 col-md-3 col-md-offset-2">
 							cycSlope
 							<div className="links">

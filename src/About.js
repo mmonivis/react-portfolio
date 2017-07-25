@@ -9,7 +9,7 @@ function About(){
 					<img src="/assets/images/me.png" alt="Portrait of Marissa Monivis" />
 				</div>
 				<div className="bio col-lg-3 col-md-4 col-sm-12">
-					<h3>A full stack web developer based in Atlanta, Georgia driven by simple, elegant design. With an extensive background in Graphic Design, Digital Marketing and Web Development, I am fascinated by the way people interact with the different user interfaces and platforms of the digital sphere.</h3>
+					<h3>A full stack web developer based in Atlanta, Georgia driven by simple, elegant design. With an extensive background in Graphic Design, Digital Marketing and Web Development, I am fascinated by the way people interact with the different platforms and user interfaces of the digital sphere.</h3>
 				</div>
 			</div>
 			<div className="row edu-section col-xs-12">

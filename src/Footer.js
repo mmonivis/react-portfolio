@@ -13,7 +13,7 @@ function Footer() {
 				Made with love &copy; Marissa Monivis
 			</div>
 			<div className="site-technologies col-xs-12">
-				HTML | CSS3 | JavaScript | Sass | React
+				HTML | CSS3 | JavaScript | jQuery | Sass | React
 			</div>
 		</div>
 	)

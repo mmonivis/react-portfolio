@@ -26,14 +26,14 @@ $(document).ready(function(){
                   //Initial Background image setup
     image.css('background-image', 'linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/assets/images/xfitgrips.jpg"');
                   //Change image at regular intervals
-    setInterval(function(){   
-     image.fadeOut(1000, function () {
-     image.css('background-image', 'linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/assets/images/' + images [i++] +'")');
-     image.fadeIn(1000);
-     });
-     if(i == images.length)
-      i = 0;
-    }, 5000);
+      setInterval(function(){  
+             image.fadeOut(1000, function () {
+             image.css('background-image', 'linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/assets/images/' + images [i++] +'")');
+             image.fadeIn(1000);
+           });
+           if(i == images.length)
+            i = 0;
+          }, 5000);
 
   // TYPEWRITER HOME PAGE EFFECT // PLUGIN
   $('.typeit').typeIt({

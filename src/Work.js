@@ -23,6 +23,21 @@ class Work extends Component {
 							</div>
 						</div>
 					</div>
+					<div className="travelist-preview hideme">
+						<div className="title text-center col-xs-12 col-md-3 col-md-offset-2">
+							traveList
+							<div className="links">
+								<a href="https://github.com/mmonivis/travelist" target="_blank">View GitHub Repository</a>
+								<a href="http://travelist.marissamonivis.com/" target="_blank">View Site</a>
+							</div>
+						</div>
+						<div className="description col-xs-12 col-md-6">
+							traveList is a web app designed to help travelers stay organized and prepared during all types of travel. The project was inspired by a friend who went on a business trip and noted the difference in packing for business versus packing for leisure. This was created as a tool to help users plan for their upcoming trips based on the type of trip they are taking, including types and settings such as business, international, beach, winter, and more.
+							<div className="tech-used">
+								OpenWeatherMap API | jQuery | AJAX | Bootstrap | MySQL | Express | Sass / Compass | Node.js
+							</div>
+						</div>
+					</div>
 			</div>
 		)
 	}

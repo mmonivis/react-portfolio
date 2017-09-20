@@ -70,5 +70,9 @@ $(document).ready(function(){
     $('.cycslope-preview').toggleClass('cycslope-preview-highlight');
   });
 
+  $('.travelist-preview').click(function() { 
+    $('.travelist-preview').toggleClass('travelist-preview-highlight');
+  });
+
 
 });

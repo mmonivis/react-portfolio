@@ -1,5 +1,6 @@
 // Functionality Components
 import React, { Component } from 'react';
+import $ from 'jquery';
 
 // Custom Components
 import Header from './Header';
@@ -12,8 +13,9 @@ import Footer from './Footer';
 
 class App extends Component {
   render() {
+
     return (
-        <div className="content-window co-xs-12">
+        <div className="content-window co-xs-12 colorOne">
             <Header />
             <Home />
             <About />
